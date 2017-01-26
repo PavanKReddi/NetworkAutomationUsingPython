@@ -119,7 +119,8 @@ ip_addr = raw_input("Please enter an IP address: ")
 if ip_valid(ip_addr):
 	username = raw_input("Username: ")
 	password = getpass.getpass()
-	config = open_config_file("Config-Cisco controller 172.16.7.193-24319501.cfg")
+	#add a Cisco configuration file in the same folder
+	config = open_config_file("Config-Cisco controller.cfg")
 
 	run(ip_addr, username, password, config)
 else:
