@@ -14,6 +14,8 @@ Byers, Kirk. "Python for Network Engineers." Python for Network Engineers. Acces
 
 * main_program.py - the main script of the program combining all modules
 
+* network_automation.py - automation happens here!
+
 * telnet_connection.py - a module that creates a telnet connection to the managing boxes
 
 * cisco_config.py - an interactive configuration program for cisco configuration
