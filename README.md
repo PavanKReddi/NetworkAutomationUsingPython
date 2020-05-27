@@ -24,10 +24,3 @@ Byers, Kirk. "Python for Network Engineers." Python for Network Engineers. Acces
 
 * switch_list.xlsx - a MS Excel file containing data of switches (Name, IP address, Username, and Password)
 
-**How to run tests**: Open Command Prompt for Windows or Terminal for Mac/Linux. Go to the folder where files locate. Then run this command:
-
-```
-#!python
-
-python main_program.py
-```
